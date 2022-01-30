@@ -9,11 +9,3 @@
     border-radius: .5rem;
     width: 25%;
 }
-
-.tasks__item button {
-    box-sizing: border-box;
-    font-family: inherit;
-    background: transparent;
-    margin: .5rem;
-    border: 1px solid red !important;
-}
