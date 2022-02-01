@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TasksListComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    const data = [
+      {
+        id: 1,
+        title: 'title test 1',
+        description: 'description test 1',
+        date: '2022-01-14'
+      }
+    ]
+
+    console.log(data);
+   }
 
   ngOnInit(): void {
+    
   }
 
 }
